@@ -33,7 +33,7 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#"> Frontend - Bootcamp</a>
           <button class="navbar-toggler" type="button"
@@ -59,8 +59,9 @@
           </div>
         </div>
     </nav> 
+
     <!-- Showcase -->
-    <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
       <div class="container">
         <div class="d-sm-flex justify-content-between align-items-center">
           <div>
@@ -72,9 +73,24 @@
           <img src="assets/img/showcase.svg" class= "img-fluid w-50 d-none d-sm-block">
         </div>
       </div>
+    </section>
 
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5 text-center">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <div><h3 class="mb-3 mb-md-0">Sign Up for Newsletter</h3></div>
+          <form action="#" class="row g-2">
+            <div class="form-goup col-lg-auto">
+              <input type="text" id="input-newsletter" class="form-control" placeholder="Enter Email">
+            </div>
+            <button class="btn btn-dark col-lg-auto">Subscribe</button>
+          </form>
+        </div>
+      </div>
     </section>
     
+    <!-- Boxes -->
 
 
 
