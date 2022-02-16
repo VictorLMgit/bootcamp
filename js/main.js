@@ -1,5 +1,8 @@
+$('.showcase-text').hide(0).show(1000)
 function changeColor(){
-const colors = ["yellow", "blue","pink","black","white","browm","aqua","blueviolet","firebrick","cornflowerblue","coral","green", "purple"];
-    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    const r = Math.floor(Math.random() * 255);
+    const g = Math.floor(Math.random() * 255);
+    const b = Math.floor(Math.random() * 255);
+    const randomColor = "rgb("+r+","+g+","+b+")";
     $('span').css("color",randomColor);
 }
